@@ -1,0 +1,114 @@
+.nav {
+  font-size: 25px;
+}
+
+.nav a{
+  margin: 0;
+  padding: 10px;
+}
+
+#nav-div {
+  margin-right: 10px;
+}
+
+#main-container {
+  margin-top: 30px;
+  width: 80%;
+}
+
+#contact-links {
+  font-size: 25px;
+}
+
+.port-btn button{
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.port-content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cover {
+  object-fit: cover;
+  height: 150px;
+  width: 200px;
+}
+
+#port-site-preview {
+  object-position: 25% 0%;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: transparent;
+}
+
+/* Hand wave animation
+-------------------------------------------------- */
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Daniel Eden
+ */
+
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.swing {
+  transform-origin: bottom center;
+  animation-name: swing;
+  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+  animation-delay: 1s;
+}
